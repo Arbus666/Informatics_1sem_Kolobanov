@@ -16,7 +16,7 @@ func = np.poly1d(args)
 ax1 = fig.add_subplot(231)
 ax1.scatter(x, y)
 
-# x_line = [min(x), max(x)]
+
 ax1.plot(x, func(x), 'r')
 
 ax1.set_xlabel('SepalLengthCm')
