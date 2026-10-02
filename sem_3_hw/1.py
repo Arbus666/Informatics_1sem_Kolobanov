@@ -16,8 +16,8 @@ func = np.poly1d(args)
 ax1 = fig.add_subplot(231)
 ax1.scatter(x, y)
 
-x_line = [min(x), max(x)]
-ax1.plot(x_line, func(x_line), 'r')
+# x_line = [min(x), max(x)]
+ax1.plot(x, func(x), 'r')
 
 ax1.set_xlabel('SepalLengthCm')
 ax1.set_ylabel('SepalWidthCm')
@@ -36,8 +36,7 @@ func = np.poly1d(args)
 ax2 = fig.add_subplot(232)
 ax2.scatter(x, y)
 
-x_line = [min(x), max(x)]
-ax2.plot(x_line, func(x_line), 'r')
+ax2.plot(x, func(x), 'r')
 
 ax2.set_xlabel('SepalLengthCm')
 ax2.set_ylabel('PetalLengthCm')
@@ -56,8 +55,7 @@ func = np.poly1d(args)
 ax3 = fig.add_subplot(233)
 ax3.scatter(x, y)
 
-x_line = [min(x), max(x)]
-ax3.plot(x_line, func(x_line), 'r')
+ax3.plot(x, func(x), 'r')
 
 ax3.set_xlabel('SepalLengthCm')
 ax3.set_ylabel('PetalWidthCm')
@@ -76,8 +74,7 @@ func = np.poly1d(args)
 ax4 = fig.add_subplot(234)
 ax4.scatter(x, y)
 
-x_line = [min(x), max(x)]
-ax4.plot(x_line, func(x_line), 'r')
+ax4.plot(x, func(x), 'r')
 
 ax4.set_xlabel('SepalWidthCm')
 ax4.set_ylabel('PetalLengthCm')
@@ -96,8 +93,7 @@ func = np.poly1d(args)
 ax5 = fig.add_subplot(235)
 ax5.scatter(x, y)
 
-x_line = [min(x), max(x)]
-ax5.plot(x_line, func(x_line), 'r')
+ax5.plot(x, func(x), 'r')
 
 ax5.set_xlabel('SepalWidthCm')
 ax5.set_ylabel('PetalWidthCm')
@@ -116,8 +112,7 @@ func = np.poly1d(args)
 ax6 = fig.add_subplot(236)
 ax6.scatter(x, y)
 
-x_line = [min(x), max(x)]
-ax6.plot(x_line, func(x_line), 'r')
+ax6.plot(x, func(x), 'r')
 
 ax6.set_xlabel('PetalLengthCm')
 ax6.set_ylabel('PetalWidthCm')
