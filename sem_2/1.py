@@ -1,4 +1,4 @@
-zerkalo = 'A, H, I, M, O, T, U, V, W, X, Y, 1, 8'
+zerkalo = 'A, H, I, M, O, T, U, V, W, L, Y, 1, 8'
 
 inp = input()
 stri = []
